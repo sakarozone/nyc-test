@@ -3,17 +3,6 @@
     "version": "1.0.0",
     "description": "Using\r + Mocha - JS Unit testing runner\r + Chai - JS assertion library, that is better than 'assert' lib that comes default with nodeJs + Istanbul, JS code coverage lib + nyc, istanbul's command line tool",
     "main": "index.js",
-    "nyc": {
-        "check-coverage": true,
-        "lines": 90,
-        "statements": 90,
-        "functions": 90,
-        "branches": 90,
-        "reporter": [
-          "text",
-          "html"
-        ]
-    },
     "scripts": {
         "cleanCoverageDirs": "rm -rf .nyc_output coverage",
 
