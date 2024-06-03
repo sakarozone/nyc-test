@@ -28,7 +28,7 @@
         "checkCoverage_overAll_nyc": "nyc check-coverage --lines 90 --functions 95 --branches 85 || true",
         "checkCoverage_perFile_nyc": "nyc check-coverage --lines 90 --functions 95 --branches 85 --per-file || true",
         "checkCoverage_perFile_istanbul": "istanbul check-coverage --lines 90 --functions 95 --branches 85 --per-file || true",
-        "htmlCoverage":"nyc report --reporter html --reporter text -t coverage --report-dir coverage/summary",
+        "htmlCoverage":"nyc report --reporter html --reporter text -t coverage --report-dir coverage",
 
         "openCoverageReport": "npm run openCoverageReport_inBrowser",
         "openCoverageReport_inShell_via_nyc": "nyc report",
